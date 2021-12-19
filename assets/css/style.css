@@ -14,6 +14,10 @@
     color: #000000;
 }
 
+.mt-10{
+    margin-top: 100px;
+}
+
 .button{
     width: 110px;
     height: 51px;
@@ -227,17 +231,75 @@
 
 .why p{
     color: #ffffff;
-    width: 90%;
+    width: 85%;
     font-size: 22px;
     line-height: 35px;
     font-weight: 500;
 }
 
 .why button{
-    
+    width: 180px;
+    height: 50px;
+    background-color: #AA5FD0;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    color: #ffffff;
+}
+
+.alumni h1{
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 75px;
+    font-weight: 800;
 }
 
 
+.mt-7{
+    margin-top: 70px;
+}
+
+.saran{
+    background-color: #AA5FD0;
+    height: 400px;
+    border-radius: 80px;
+}
+
+.saran h1{
+    color: #ffffff;
+    width: 85%;
+    font-size: 45px;
+    line-height: 75px;
+    font-weight: 800;
+}
+
+.saran button{
+    width: 180px;
+    height: 50px;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: #AA5FD0;
+    border: none;
+    border-radius: 30px;
+    border: 3px solid #FCCC24;
+    color: #ffffff;
+}
+
+.partner h1{
+    color: #363846;
+    font-size: 40px;
+    line-height: 75px;
+    font-weight: 800;
+}
+
+.partner img{
+  margin: 0 30px;
+}
+
+.footer{
+    background-color: #8F32BE;
+    height: 400px;
+}
 
 
 
