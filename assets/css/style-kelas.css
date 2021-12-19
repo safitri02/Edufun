@@ -1,0 +1,195 @@
+* {
+	font-family: "Baloo Bhaijaan 2", cursive;
+	font-size: 12px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--purple: #651991;
+	--light-purple: #8f32be;
+}
+.waves_bg {
+	position: absolute;
+	z-index: -99;
+}
+.container {
+	width: 1166px;
+	margin: 0 auto;
+}
+/* navigation */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+.menu_link ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu_link a {
+	text-decoration: none;
+	padding: 30px 25px;
+	font-size: 1.2em;
+	font-weight: 500;
+	color: #fff;
+}
+
+/* button login */
+.login_button a {
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 500;
+	color: #fff;
+	transition: 0.3s ease-out;
+}
+.login_button a:nth-child(1) {
+	background-color: transparent;
+	padding: 6px 30px;
+	border-radius: 30px;
+	border: solid 2px #fff;
+}
+.login_button a:nth-child(1):hover {
+	background-color: #fff;
+	color: var(--purple);
+}
+.login_button a:nth-child(2) {
+	background-color: var(--purple);
+	padding: 9px 30px;
+	border-radius: 30px;
+	margin-left: 30px;
+}
+.login_button a:nth-child(2):hover {
+	background-color: #fff;
+	color: var(--purple);
+}
+/* button kelas */
+.button_kelas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.button_kelas a {
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 500;
+	background-color: #fff;
+	color: var(--purple);
+	padding: 9px 30px;
+	margin: 0 20px;
+	border-radius: 30px;
+	transition: 0.3s ease-out;
+}
+.button_kelas a:nth-child(3) {
+	background-color: var(--purple);
+	color: #fff;
+}
+.button_kelas a:hover {
+	background-color: var(--purple);
+	color: #fff;
+}
+/* card */
+.card {
+	width: 882px;
+	margin: 85px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 25px;
+}
+.card-dua {
+	grid-column: 2/4;
+	grid-row: 1;
+	background-color: var(--purple) !important;
+}
+.card-enam {
+	grid-column: 1/3;
+	grid-row: 3;
+	background-color: var(--purple) !important;
+}
+.kelas {
+	background-color: var(--light-purple);
+	border-radius: 35px;
+	padding: 40px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.kelas p {
+	color: #fff;
+	margin: 30px 0;
+}
+.kelas a {
+	text-decoration: none;
+	color: #fff;
+	border: solid 2px #fff;
+	padding: 9px 30px;
+	border-radius: 35px;
+	font-weight: 500;
+	transition: 0.3s ease-out;
+}
+.kelas a:hover {
+	color: var(--purple);
+	background-color: #fff;
+}
+.next-prev {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: -50px;
+}
+.next-prev a {
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 500;
+	background-color: var(--light-purple);
+	color: #fff;
+	padding: 9px 30px;
+	margin: 0 20px;
+	border-radius: 30px;
+	transition: 0.3s ease-out;
+}
+footer {
+	padding: 160px 0;
+	margin-top: 100px;
+	background-color: var(--light-purple);
+	line-height: 35px;
+}
+footer .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	color: #fff;
+}
+footer .container h3 {
+	font-size: 18px;
+	font-weight: 500;
+}
+footer .container a {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.1em;
+}
+.links-footer {
+	padding-left: 50px;
+}
+.saran-footer input,
+textarea {
+	border-radius: 10px;
+	font-size: 1.2rem;
+	width: 100%;
+	border: none;
+	background-color: #fdfdfd;
+}
+.saran-footer .email {
+	padding: 10px 10px;
+}
+.saran-footer .komentar {
+	padding: 10px 0 100px 10px;
+}
