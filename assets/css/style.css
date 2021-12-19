@@ -1,0 +1,221 @@
+@font-face{
+    font-family: 'BalooBhaijaan';
+    src: url(../fonts/BalooBhaijaan2-Regular.ttf);
+}
+
+*{
+    font-family: BalooBhaijaan;
+}
+
+.navbar-nav a{
+    margin: 0 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button{
+    width: 110px;
+    height: 51px;
+    background-color: #AA5FD0;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.button2{
+    width: 110px;
+    height: 51px;
+    background-color: #ffffff;
+    border: 2px solid #AA5FD0;
+    border-radius: 30px;
+    color: #000000;
+}
+
+.jumbotron{
+    background-color: #ffffff;
+}
+
+.jumbotron img{
+    height: 400px;
+}
+
+.jumbotron h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.jumbotron span{
+    color: #AA5FD0;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.jumbotron p{
+    width: 87%;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.jumbotron button{
+    height: 55px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #AA5FD0;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+}
+
+.top .card{
+    margin-bottom: -150px;
+    height: 240px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 90%;
+    box-shadow: 5px 5px 15px rgba(100,100,100,0.3);
+    border-radius: 45px;
+}
+
+.top .card h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+.top .card p{
+    text-align: center;
+    margin-top: -8px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.top .card button{
+    margin-top: -10px;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #AA5FD0;
+    color: #ffffff;
+    border: none;
+    font-size: 22px;
+}
+
+.solusi{
+    z-index: -3 !important;
+    height: 620px;
+    background-image: url('../img/solusi.png');
+    background-color: #AA5FD0;
+}
+
+.solusi .text{
+    color: #ffffff;
+    z-index: 1;
+    text-align: center;
+    width: 70%;
+}
+
+.solusi .text h1{
+    padding-top: 200px;
+    z-index: 1;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 75px;
+}
+
+.solusi .text p{
+    z-index: 2;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.solusi .text button{
+    height: 55px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #AA5FD0;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+}
+
+.mapel h1{
+    margin-top: 100px;
+    color: #363846;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+.mapel p{
+    margin-top: -15px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #363846;
+    font-weight: 400;
+}
+
+.mapel button{
+    margin: 0 15px;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #651991;
+    border: 2px solid #651991;
+    font-size: 16px;
+}
+
+.mapel .select{
+    margin: 0 15px;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #651991;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+}
+
+.mapel .card{
+    margin-bottom: 50px;
+    height: 300px;
+    background-color: #660099;
+    border-radius: 45px;
+}
+
+.mapel .card p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.button-mapel{
+    background-color: #660099;
+    margin: 0 15px;
+    height: 45px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 2px solid #fff;
+}
+
+.why{
+    height: 600px;
+    background-color: #AA5FD0;
+}
+
+.why img{
+    margin-top: 80px;
+}
+
+
+
