@@ -9,6 +9,7 @@
 	--purple: #651991;
 	--light-purple: #8f32be;
 	--black: #363846;
+	--white: #fff;
 }
 .waves_bg {
 	position: absolute;
@@ -162,10 +163,16 @@ nav .container {
 	font-size: 1.3em;
 	background-color: var(--light-purple);
 	color: #fff;
-	padding: 9px 30px;
+	padding: 6px 30px;
 	margin: 0 20px;
+	border: solid 2px var(--light-purple);
 	border-radius: 30px;
 	transition: 0.3s ease-out;
+}
+.next-prev a:hover {
+	border: solid 2px var(--purple);
+	background-color: var(--purple);
+	color: #fff;
 }
 footer {
 	padding: 160px 0;
