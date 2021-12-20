@@ -47,7 +47,7 @@ nav .container {
 /* button login */
 .login_button a {
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 18px;
 	color: #fff;
 	transition: 0.3s ease-out;
 }
@@ -55,21 +55,25 @@ nav .container {
 	background-color: transparent;
 	padding: 6px 30px;
 	border-radius: 30px;
-	border: solid 2px #fff;
+	border: solid 2px var(--light-purple);
+	color: var(--light-purple);
 }
 .login_button a:nth-child(1):hover {
-	background-color: #fff;
-	color: var(--purple);
+	background-color: var(--light-purple);
+	color: #fff;
 }
 .login_button a:nth-child(2) {
-	background-color: var(--purple);
-	padding: 9px 30px;
+	background-color: var(--light-purple);
+	padding: 6px 30px;
 	border-radius: 30px;
 	margin-left: 30px;
+	border: solid 2px var(--light-purple);
+	color: #fff;
 }
 .login_button a:nth-child(2):hover {
-	background-color: #fff;
-	color: var(--purple);
+	border: solid 2px var(--light-purple);
+	color: var(--light-purple);
+	background-color: transparent;
 }
 /* button kelas */
 .button_kelas {
