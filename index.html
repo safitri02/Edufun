@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>EduFun</title>
+    <title>EduFun | Daftar Kelas Bimbel</title>
 </head>
 <body>
 <!-- Navbar -->
@@ -22,7 +24,6 @@
       <div class="navbar-nav mx-auto">
         <a href="#">Beranda</a>
         <a href="kelas.html">Kelas</a>
-        <a href="#">Jadwal</a>
         <a href="#">Tentang </a>
       </div>
       <button class="button">Masuk</button>
@@ -174,40 +175,30 @@
 <!-- Alumni -->
 <div class="alumni mt-5">
   <h1 class="text-center">Kata Alumni</h1>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
+  
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="carousel-item">
-            <img src="assets/img/class2.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="carousel-item">
-            <img src="assets/img/class2.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="carousel-item">
-            <img src="assets/img/class2.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
+      <div class="carousel-item active">
+          <img src="assets/img/alumni1.png" class="d-block" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/alumni2.png" class="d-block alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/alumni4.png" class="d-block alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/alumni5.jpg" class="d-block alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/alumni6.jpg" class="d-block alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/alumni3.png" class="d-block alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </button>
   </div>
+
 </div>
 <!-- End Alumni -->
 
@@ -242,23 +233,45 @@
 </div>
 <!-- End container -->
 
-<!-- <div class="footer mt-10">
+<div class="footer mt-10">
 <div class="container">
   <div class="row">
-    <div class="col-md-3">
-      <img src="assets/img/edufun-logo.png" alt="" srcset="">
-    </div>
     <div class="col-md-4">
-      <p>hello</p>
+      <img src="assets/img/edufun-footer.png" alt="" srcset="">
+      <p class="mt-3">Bimbingan belajar online interaktif bersama EduFun,
+        Ciptakan cara belajar sesuai dengan gayamu.</p>
     </div>
-    <div class="col-md-5">
-      <p>hello</p>
+    <div class="col-md-2">
+      <h3 class="bold">Tautan</h3>
+      <a href="#">Beranda</a> <br>
+      <a href="#">Beranda</a> <br>
+      <a href="#">Beranda</a> <br>
+      <a href="#">Beranda</a> <br>
+      <a href="#">Beranda</a> <br>
+      <a href="#">Beranda</a> <br>
+      <a href="#">Beranda</a> <br>
+    </div>
+    <div class="col-md-6">
+      <h3 class="bold">Komentar</h3>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Komentar</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit">Komentar</button>
+      </form>
     </div>
   </div>
 </div>
-</div> -->
+</div>
 
 
-<script src="assets/js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
 </body>
 </html>

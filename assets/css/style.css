@@ -254,6 +254,11 @@
     font-weight: 800;
 }
 
+.alumni .carousel img{
+    width: 300px;
+    border-radius: 50%;
+}
+
 
 .mt-7{
     margin-top: 70px;
@@ -297,9 +302,33 @@
 }
 
 .footer{
+    color: #ffffff;
     background-color: #8F32BE;
-    height: 400px;
+    height: 450px;
 }
 
+.bold {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+
+}
+
+.footer .row{
+    padding-top: 80px;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer button{
+    background-color: #8F32BE;
+    padding: 8px 18px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
 
 
