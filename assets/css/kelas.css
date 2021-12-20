@@ -84,7 +84,7 @@ nav .container {
 }
 .button_kelas a {
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: 500;
 	background-color: #fff;
 	color: var(--purple);
@@ -154,7 +154,7 @@ nav .container {
 }
 .next-prev a {
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: 500;
 	background-color: var(--light-purple);
 	color: #fff;
@@ -175,15 +175,21 @@ footer .container {
 	color: #fff;
 }
 footer .container h3 {
-	font-size: 18px;
+	font-size: 2em;
 	font-weight: 500;
+	margin-bottom: 10px;
 }
-footer .container a {
+footer .container a,
+p,
+label {
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
 	color: #fff;
-	font-size: 1.1em;
+	font-size: 1.3em;
+}
+label {
+	margin-bottom: -30px;
 }
 .links-footer {
 	padding-left: 50px;
@@ -191,7 +197,7 @@ footer .container a {
 .saran-footer input,
 textarea {
 	border-radius: 10px;
-	font-size: 1.2rem;
+	font-size: 1.3em;
 	width: 100%;
 	border: none;
 	background-color: #fdfdfd;
