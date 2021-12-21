@@ -462,6 +462,7 @@ footer .container {
 footer .container h3 {
 	font-size: 1.5em;
 	margin-bottom: 10px;
+	font-weight: 800;
 }
 footer .container a,
 p,
@@ -499,7 +500,7 @@ textarea {
 	color: #fff;
 	border: solid 2px var(--purple);
 	border-radius: 30px;
-	padding: 6px 30px;
+	padding: 3px 30px;
 	transition: 0.3s ease-out;
 }
 .btnfill:hover {
