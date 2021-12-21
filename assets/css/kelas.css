@@ -221,3 +221,18 @@ textarea {
 .saran-footer .komentar {
 	padding: 10px 0 100px 10px;
 }
+.btnfill {
+	text-decoration: none;
+	font-size: 1em;
+	background-color: var(--purple);
+	color: #fff;
+	border: solid 2px var(--purple);
+	border-radius: 30px;
+	padding: 6px 30px;
+	transition: 0.3s ease-out;
+}
+.btnfill:hover {
+	background-color: var(--white);
+	border: solid 2px var(--white);
+	color: var(--purple);
+}
