@@ -128,6 +128,7 @@ nav .container {
 	background-color: var(--purple) !important;
 }
 .kelas {
+	box-shadow: 1px 1px 5px #363846;
 	background-color: var(--light-purple);
 	border-radius: 35px;
 	padding: 40px 40px;
