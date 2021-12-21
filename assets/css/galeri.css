@@ -1,0 +1,218 @@
+* {
+	font-family: "Baloo Bhaijaan 2", cursive;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--purple: #651991;
+	--light-purple: #aa5fd0;
+	--black: #363846;
+	--white: #fff;
+	--yellow: #fccc24;
+}
+.waves_bg {
+	position: absolute;
+	z-index: -99;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+/* navigation */
+nav {
+	background-color: #fff;
+}
+nav .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 0;
+}
+.logo {
+	padding-top: 10px;
+}
+.menu_link ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu_link a {
+	text-decoration: none;
+	padding: 7px 25px;
+	font-size: 1em;
+	font-weight: 500;
+	color: var(--black);
+	border-radius: 35px;
+	transition: all 0.5s;
+}
+.menu_link a:hover {
+	background-color: #ebebeb;
+}
+
+/* button login */
+.login_button a {
+	text-decoration: none;
+	font-size: 1em;
+	color: #fff;
+	transition: 0.3s ease-out;
+}
+.login_button a:nth-child(1) {
+	background-color: transparent;
+	padding: 6px 30px;
+	border-radius: 30px;
+	border: solid 2px var(--light-purple);
+	color: var(--light-purple);
+}
+.login_button a:nth-child(1):hover {
+	background-color: var(--light-purple);
+	color: #fff;
+}
+.login_button a:nth-child(2) {
+	background-color: var(--light-purple);
+	padding: 6px 30px;
+	border-radius: 30px;
+	margin-left: 30px;
+	border: solid 2px var(--light-purple);
+	color: #fff;
+}
+.login_button a:nth-child(2):hover {
+	border: solid 2px var(--light-purple);
+	color: var(--light-purple);
+	background-color: transparent;
+}
+
+/* waves bg */
+.waves {
+	position: fixed;
+	max-width: 100%;
+	z-index: -99;
+}
+
+/* card */
+.container h1 {
+	font-size: 24px;
+	text-align: center;
+	margin: 45px 0;
+	color: var(--black);
+}
+.card {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 25px;
+}
+.items {
+	background-color: gray;
+	border-radius: 50px;
+	overflow: hidden;
+	position: relative;
+}
+.item4 {
+	grid-column: 1/3;
+	grid-row: 2;
+}
+.item7 {
+	grid-column: 2/4;
+	grid-row: 3;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0;
+	transition: 0.3s ease-in;
+}
+.items:hover .overlay {
+	opacity: 0.5;
+}
+.text-item {
+	padding: 0 30px;
+	position: absolute;
+	bottom: 30px;
+	opacity: 0;
+	transition: 0.3s ease-in;
+}
+.items:hover .text-item {
+	opacity: 1;
+}
+.text-item h3 {
+	color: var(--yellow);
+	font-size: 24px;
+}
+.text-item p {
+	font-weight: 400;
+}
+.items img {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.items:hover img {
+	transform: scale(1.3);
+}
+
+/* footer */
+footer {
+	padding: 160px 0;
+	margin-top: 100px;
+	background-color: var(--light-purple);
+	line-height: 35px;
+}
+footer .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	color: #fff;
+}
+footer .container h3 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+footer .container a,
+p,
+label {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+}
+label {
+	margin-bottom: -30px;
+}
+.links-footer {
+	padding-left: 50px;
+}
+.saran-footer input,
+textarea {
+	border-radius: 10px;
+	font-size: 1em;
+	width: 100%;
+	border: none;
+	background-color: #fdfdfd;
+}
+.saran-footer .email {
+	padding: 10px 10px;
+}
+.saran-footer .komentar {
+	padding: 10px 0 100px 10px;
+}
+.btnfill {
+	text-decoration: none;
+	font-size: 1em;
+	background-color: var(--purple);
+	color: #fff;
+	border: solid 2px var(--purple);
+	border-radius: 30px;
+	padding: 6px 30px;
+	transition: 0.3s ease-out;
+}
+.btnfill:hover {
+	background-color: var(--white);
+	border: solid 2px var(--white);
+	color: var(--purple);
+}
