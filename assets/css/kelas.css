@@ -1,13 +1,13 @@
 * {
 	font-family: "Baloo Bhaijaan 2", cursive;
 	box-sizing: border-box;
-	font-size: 12px;
+	font-size: 16px;
 	margin: 0;
 	padding: 0;
 }
 :root {
 	--purple: #651991;
-	--light-purple: #8f32be;
+	--light-purple: #aa5fd0;
 	--black: #363846;
 	--white: #fff;
 }
@@ -41,7 +41,8 @@ nav .container {
 .menu_link a {
 	text-decoration: none;
 	padding: 7px 25px;
-	font-size: 1.4em;
+	font-size: 1em;
+	font-weight: 500;
 	color: var(--black);
 	border-radius: 35px;
 	transition: all 0.5s;
@@ -53,7 +54,7 @@ nav .container {
 /* button login */
 .login_button a {
 	text-decoration: none;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: #fff;
 	transition: 0.3s ease-out;
 }
@@ -84,17 +85,16 @@ nav .container {
 /* button kelas */
 .button_kelas {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	margin-top: 70px;
 }
 .button_kelas a {
 	text-decoration: none;
-	font-size: 1.3em;
+	font-size: 1em;
 	background-color: #fff;
 	color: var(--purple);
 	padding: 6px 30px;
-	margin: 0 20px;
 	border-radius: 30px;
 	transition: 0.3s ease-out;
 }
@@ -107,9 +107,12 @@ nav .container {
 	color: #fff;
 }
 /* card */
-.card {
+.card-wrapper {
 	width: 882px;
 	margin: 85px auto;
+}
+.card {
+	padding: 75px 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 25px;
@@ -137,13 +140,13 @@ nav .container {
 .kelas p {
 	color: #fff;
 	margin: 30px 0;
-	font-size: 1.3em;
+	font-size: 1em;
 }
 .kelas a {
 	text-decoration: none;
 	color: #fff;
 	border: solid 2px #fff;
-	font-size: 1.3em;
+	font-size: 1em;
 	padding: 6px 30px;
 	border-radius: 35px;
 	transition: 0.3s ease-out;
@@ -156,11 +159,10 @@ nav .container {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	margin-top: -50px;
 }
 .next-prev a {
 	text-decoration: none;
-	font-size: 1.3em;
+	font-size: 1em;
 	background-color: var(--light-purple);
 	color: #fff;
 	padding: 6px 30px;
@@ -186,7 +188,7 @@ footer .container {
 	color: #fff;
 }
 footer .container h3 {
-	font-size: 2em;
+	font-size: 1.5em;
 	margin-bottom: 10px;
 }
 footer .container a,
@@ -196,7 +198,7 @@ label {
 	flex-direction: column;
 	text-decoration: none;
 	color: #fff;
-	font-size: 1.3em;
+	font-size: 1em;
 }
 label {
 	margin-bottom: -30px;
@@ -207,7 +209,7 @@ label {
 .saran-footer input,
 textarea {
 	border-radius: 10px;
-	font-size: 1.3em;
+	font-size: 1em;
 	width: 100%;
 	border: none;
 	background-color: #fdfdfd;
