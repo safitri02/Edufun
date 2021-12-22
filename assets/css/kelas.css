@@ -13,7 +13,7 @@ body {
 	--white: #fff;
 }
 .waves_bg {
-	position: absolute;
+	position: fixed;
 	z-index: -99;
 }
 .container {
@@ -165,11 +165,11 @@ nav .container {
 .next-prev a {
 	text-decoration: none;
 	font-size: 1em;
-	background-color: var(--light-purple);
-	color: #fff;
+	background-color: var(--white);
+	color: var(--purple);
 	padding: 6px 30px;
 	margin: 0 20px;
-	border: solid 2px var(--light-purple);
+	border: solid 2px var(--white);
 	border-radius: 30px;
 	transition: 0.3s ease-out;
 }
@@ -188,25 +188,22 @@ footer {
 }
 footer .container {
 	display: grid;
-	width: 1140px;
 	grid-template-columns: 1fr 1fr 2fr;
 	color: #fff;
 }
 footer .container h3 {
 	font-size: 1.5em;
-	margin-bottom: 40px;
-	margin-top: 0;
-	font-weight: 600;
+	margin-bottom: 10px;
 }
 footer .container a,
 p,
 label {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1em;
+	font-family: ;
 }
 label {
 	margin-bottom: -30px;
@@ -218,12 +215,12 @@ label {
 textarea {
 	border-radius: 10px;
 	font-size: 1em;
-	width: 100%;
+	width: 97%;
 	border: none;
 	background-color: #fdfdfd;
 }
 .saran-footer .email {
-	padding: 10px 10px;
+	padding: 15px 10px;
 }
 .saran-footer .komentar {
 	padding: 10px 0 100px 10px;
@@ -233,6 +230,7 @@ textarea {
 	font-size: 1em;
 	background-color: var(--white);
 	color: var(--purple);
+	font-family: "Baloo Bhaijaan 2", cursive;
 	border: solid 2px var(--white);
 	border-radius: 30px;
 	padding: 6px 30px;
