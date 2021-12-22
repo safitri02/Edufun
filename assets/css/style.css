@@ -345,8 +345,10 @@ nav .container {
 
 .saran {
 	background-color: #aa5fd0;
-	height: 445px;
 	border-radius: 80px;
+}
+.saran .container .row {
+	height: 445px;
 }
 .saran h1 {
 	color: #ffffff;
@@ -451,6 +453,8 @@ nav .container {
 .partner img {
 	margin: 0 30px;
 }
+
+/* footer */
 footer {
 	padding: 160px 0;
 	margin-top: 100px;
@@ -459,13 +463,14 @@ footer {
 }
 footer .container {
 	display: grid;
+	width: 1140px;
 	grid-template-columns: 1fr 1fr 2fr;
 	color: #fff;
 }
 footer .container h3 {
 	font-size: 1.5em;
-	margin-bottom: 10px;
-	font-weight: 800;
+	margin-bottom: 35px;
+	font-weight: 600;
 }
 footer .container a,
 p,
@@ -481,6 +486,9 @@ label {
 }
 .links-footer {
 	padding-left: 50px;
+}
+.saran-footer .email {
+	padding: 10px 10px;
 }
 .saran-footer input,
 textarea {
@@ -499,11 +507,11 @@ textarea {
 .btnfill {
 	text-decoration: none;
 	font-size: 1em;
-	background-color: var(--purple);
-	color: #fff;
-	border: solid 2px var(--purple);
+	background-color: var(--white);
+	color: var(--purple);
+	border: solid 2px var(--white);
 	border-radius: 30px;
-	padding: 3px 30px;
+	padding: 6px 30px;
 	transition: 0.3s ease-out;
 }
 .btnfill:hover {

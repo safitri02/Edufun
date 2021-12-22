@@ -178,6 +178,8 @@ nav .container {
 	background-color: var(--purple);
 	color: #fff;
 }
+
+/* footer */
 footer {
 	padding: 160px 0;
 	margin-top: 100px;
@@ -186,18 +188,22 @@ footer {
 }
 footer .container {
 	display: grid;
+	width: 1140px;
 	grid-template-columns: 1fr 1fr 2fr;
 	color: #fff;
 }
 footer .container h3 {
 	font-size: 1.5em;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
+	margin-top: 0;
+	font-weight: 600;
 }
 footer .container a,
 p,
 label {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1em;
@@ -225,9 +231,9 @@ textarea {
 .btnfill {
 	text-decoration: none;
 	font-size: 1em;
-	background-color: var(--purple);
-	color: #fff;
-	border: solid 2px var(--purple);
+	background-color: var(--white);
+	color: var(--purple);
+	border: solid 2px var(--white);
 	border-radius: 30px;
 	padding: 6px 30px;
 	transition: 0.3s ease-out;
