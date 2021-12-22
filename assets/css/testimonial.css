@@ -41,3 +41,24 @@
 	color: #000;
 	width: 80%;
 }
+
+.testimonial button{
+	font-size: 17px;
+	background-color: var(--light-purple);
+	padding: 16px 0px;
+	width: 200px;
+	border-radius: 30px;
+	border: solid 2px var(--white);
+	color: var(--white);
+	transition: 0.3s ease-out;
+}
+
+.testimonial button:hover{
+	background-color: #fff;
+	padding: 15px 0px;
+	width: 200px;
+	border-radius: 30px;
+	border: solid 2px var(--light-purple);
+	color: #000;
+	transition: 0.3s ease-out;
+}
