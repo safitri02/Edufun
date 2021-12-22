@@ -1,42 +1,43 @@
+.logo {
+	padding: 0;
+}
 .testimonial h1 {
-    color: #363846;
-    font-size: 40px;
-    line-height: 75px;
-    font-weight: 800;
+	color: #363846;
+	font-size: 40px;
+	line-height: 75px;
+	font-weight: 800;
 }
 
 .testimonial .card-testi {
-    margin-bottom: 50px;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 0px 5px 15px rgba(100, 100, 100, 0.3);
+	margin-bottom: 50px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 0px 5px 15px rgba(100, 100, 100, 0.3);
 }
-.card-testi{
-    margin-top: 10px;
-    padding: 20px;
-}
-
-.card-testi h3{
-    color: #363846;
-    font-weight: 600;
-    font-size: 25px;
+.card-testi {
+	margin-top: 10px;
+	padding: 20px;
 }
 
-.testimonial img{
-    border-radius: 50%;
-    height: 100px;
+.card-testi h3 {
+	color: #363846;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.testimonial img {
+	border-radius: 50%;
+	height: 100px;
 }
 
 .card-testi .bintang {
-    height: 25px;
-    width: 95px;
+	height: 25px;
+	width: 95px;
 }
 
-.testimonial p{
-    font-size: 20px;
-    font-weight: 400;
-    color: #000;
-    width: 80%;
+.testimonial p {
+	font-size: 20px;
+	font-weight: 400;
+	color: #000;
+	width: 80%;
 }
-
-

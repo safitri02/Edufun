@@ -99,6 +99,9 @@ nav .container {
 	color: var(--black);
 }
 .card {
+	width: 882px;
+	height: 982px;
+	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 25px;
@@ -149,11 +152,10 @@ nav .container {
 	font-weight: 400;
 }
 .items img {
-	transform: scale(1.2);
 	transition: 0.5s;
 }
 .items:hover img {
-	transform: scale(1.23);
+	transform: scale(1.03);
 }
 
 /* footer */

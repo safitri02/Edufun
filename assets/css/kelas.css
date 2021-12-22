@@ -1,8 +1,9 @@
-* {
+body {
 	font-family: "Baloo Bhaijaan 2", cursive;
 	box-sizing: border-box;
 	font-size: 16px;
 	margin: 0;
+	overflow-x: hidden;
 	padding: 0;
 }
 :root {
@@ -94,7 +95,7 @@ nav .container {
 	font-size: 1em;
 	background-color: #fff;
 	color: var(--purple);
-	padding: 6px 30px;
+	padding: 9px 30px;
 	border-radius: 30px;
 	transition: 0.3s ease-out;
 }
