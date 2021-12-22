@@ -54,8 +54,9 @@
 }
 
 .testimonial button:hover{
+	font-size: 17px;
 	background-color: #fff;
-	padding: 15px 0px;
+	padding: 16px 0px;
 	width: 200px;
 	border-radius: 30px;
 	border: solid 2px var(--light-purple);
