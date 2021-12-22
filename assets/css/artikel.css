@@ -4,3 +4,35 @@
     color: #363846;
     line-height: 75px;
 }
+
+.artikel .imgartikel1{
+    width: 700px;
+}
+
+.container .artikel1 h3{
+    color: white;
+    margin-top: -120px;
+    font-size: 25px;
+    line-height: 45px;
+    width: 80%;
+    font-weight: 700;
+}
+
+.artikel2 h3{
+    color: #000;
+}
+
+.artikel p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000;
+}
+
+.artikelb h3{
+    color: #363846;
+    font-size: 25px;
+    line-height: 47px;
+    font-weight: 700;
+
+}
