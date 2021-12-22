@@ -345,6 +345,7 @@ nav .container {
 
 .saran {
 	background-color: #aa5fd0;
+	height: 450px;
 	border-radius: 80px;
 }
 .saran .container .row {
@@ -353,8 +354,8 @@ nav .container {
 .saran h1 {
 	color: #ffffff;
 	width: 85%;
-	font-size: 46px;
-	line-height: 75px;
+	font-size: 45px;
+	line-height: 70px;
 	font-weight: 800;
 }
 
