@@ -206,9 +206,9 @@ textarea {
 .btnfill {
 	text-decoration: none;
 	font-size: 1em;
-	background-color: var(--purple);
-	color: #fff;
-	border: solid 2px var(--purple);
+	background-color: var(--white);
+	color: var(--purple);
+	border: solid 2px var(--white);
 	border-radius: 30px;
 	padding: 6px 30px;
 	transition: 0.3s ease-out;
