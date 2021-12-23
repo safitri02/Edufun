@@ -1,38 +1,64 @@
-.artikel h2{
-    font-weight: 800;
-    font-size: 40px;
-    color: #363846;
-    line-height: 75px;
+:root {
+	--purple: #651991;
+	--light-purple: #aa5fd0;
+	--black: #363846;
+	--white: #fff;
+	--yellow: #fccc24;
+}
+.artikel h2 {
+	font-weight: 800;
+	font-size: 40px;
+	color: #363846;
+	line-height: 75px;
 }
 
-.artikel .imgartikel1{
-    width: 700px;
+.artikel .imgartikel1 {
+	width: 700px;
 }
 
-.container .artikel1 h3{
-    color: white;
-    margin-top: -120px;
-    font-size: 25px;
-    line-height: 45px;
-    width: 80%;
-    font-weight: 700;
+.container .artikel1 h3 {
+	color: white;
+	margin-top: -120px;
+	font-size: 25px;
+	line-height: 45px;
+	width: 80%;
+	font-weight: 700;
 }
 
-.artikel2 h3{
-    color: #000;
+.artikel2 h3 {
+	color: #000;
 }
 
-.artikel p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #000;
+.artikel p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #000;
 }
 
-.artikelb h3{
-    color: #363846;
-    font-size: 25px;
-    line-height: 47px;
-    font-weight: 700;
-
+.artikelb h3 {
+	color: #363846;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 700;
+}
+.pages-bar {
+	display: flex;
+	justify-content: center;
+}
+.page-button a {
+	padding: 6px 16px;
+	background-color: transparent;
+	border-radius: 35px;
+	margin: 0 10px;
+	color: var(--purple);
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	border: solid 2px var(--purple);
+	transition: 0.3s;
+}
+.page-button a:hover {
+	background-color: var(--purple);
+	color: var(--white);
 }

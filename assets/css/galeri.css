@@ -108,7 +108,7 @@ nav .container {
 }
 .items {
 	background-color: gray;
-	border-radius: 50px;
+	border-radius: 10px;
 	overflow: hidden;
 	position: relative;
 }
@@ -153,6 +153,7 @@ nav .container {
 }
 .items img {
 	transition: 0.5s;
+	transform: scale(1.01);
 }
 .items:hover img {
 	transform: scale(1.03);
