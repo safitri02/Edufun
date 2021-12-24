@@ -29,6 +29,7 @@ nav .container {
 	align-items: center;
 	margin-bottom: 0;
 }
+
 .menu_link a {
 	text-decoration: none;
 	padding: 7px 25px;
@@ -38,6 +39,7 @@ nav .container {
 	border-radius: 35px;
 	transition: all 0.5s;
 }
+
 .menu_link a:hover {
 	background-color: #ebebeb;
 }
@@ -48,6 +50,7 @@ nav .container {
 	color: #fff;
 	transition: 0.3s ease-out;
 }
+
 .login_button a:nth-child(1) {
 	background-color: transparent;
 	padding: 6px 30px;
@@ -55,10 +58,12 @@ nav .container {
 	border: solid 2px var(--light-purple);
 	color: var(--light-purple);
 }
+
 .login_button a:nth-child(1):hover {
 	background-color: var(--light-purple);
 	color: #fff;
 }
+
 .login_button a:nth-child(2) {
 	background-color: var(--light-purple);
 	padding: 6px 30px;
@@ -67,6 +72,7 @@ nav .container {
 	border: solid 2px var(--light-purple);
 	color: #fff;
 }
+
 .login_button a:nth-child(2):hover {
 	border: solid 2px var(--light-purple);
 	color: var(--light-purple);
@@ -105,14 +111,14 @@ nav .container {
 
 .jumbotron h1 {
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 45px;
 	margin-bottom: -50px;
 	color: var(--black);
 }
 
 .jumbotron span {
 	color: #aa5fd0;
-	font-size: 40px;
+	font-size: 45px;
 	font-weight: 800;
 	padding-top: 50px;
 }
@@ -415,8 +421,7 @@ nav .container {
 	color: var(--black);
 	margin-top: 90px;
 }
-.artikelb h3,
-p {
+.artikelb h3, p {
 	text-align: left !important;
 }
 .artikelbtn {
@@ -487,49 +492,56 @@ footer {
 	background-color: var(--light-purple);
 	line-height: 35px;
 }
+
 footer .container {
 	display: grid;
 	width: 1140px;
 	grid-template-columns: 1fr 1fr 2fr;
 	color: #fff;
 }
+
 footer .container h3 {
 	font-size: 1.5em;
 	margin-bottom: 35px;
 	font-weight: 600;
 }
-footer .container a,
-p,
-label {
+
+footer .container a, p, label {
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1em;
 }
+
 label {
 	margin-bottom: -30px;
 }
+
 .links-footer {
 	padding-left: 50px;
 }
+
 .saran-footer .email {
 	padding: 10px 10px;
 }
-.saran-footer input,
-textarea {
+
+.saran-footer input, textarea {
 	border-radius: 10px;
 	font-size: 1em;
 	width: 100%;
 	border: none;
 	background-color: #fdfdfd;
 }
+
 .saran-footer .email {
 	padding: 10px 10px;
 }
+
 .saran-footer .komentar {
 	padding: 10px 0 100px 10px;
 }
+
 .btnfill {
 	text-decoration: none;
 	font-size: 1em;
@@ -540,6 +552,7 @@ textarea {
 	padding: 2px 30px;
 	transition: 0.3s ease-out;
 }
+
 .btnfill:hover {
 	background-color: var(--white);
 	border: solid 2px var(--white);

@@ -5,6 +5,7 @@
 	--white: #fff;
 	--yellow: #fccc24;
 }
+
 .artikel h2 {
 	font-weight: 800;
 	font-size: 40px;
@@ -28,9 +29,11 @@
 .artikel2 h3 {
 	color: #363846;
 }
+
 .artikel a {
 	text-decoration: none;
 }
+
 .artikel p {
 	font-weight: 400;
 	font-size: 20px;
@@ -44,14 +47,17 @@
 	line-height: 35px;
 	font-weight: 700;
 }
+
 .artikelb p {
 	color: #363846;
 	font-size: 20px;
 }
+
 .pages-bar {
 	display: flex;
 	justify-content: center;
 }
+
 .page-button a {
 	padding: 6px 16px;
 	background-color: transparent;
@@ -64,6 +70,7 @@
 	border: solid 2px var(--purple);
 	transition: 0.3s;
 }
+
 .page-button a:hover {
 	background-color: var(--purple);
 	color: var(--white);
