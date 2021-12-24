@@ -126,7 +126,7 @@ nav .container {
 
 /* card */
 .card-wrapper {
-	width: 882px;
+	width: 1140px;
 	margin: 85px auto;
 }
 
@@ -225,7 +225,9 @@ footer .container h3 {
 	margin-bottom: 10px;
 }
 
-footer .container a, p, label {
+footer .container a,
+p,
+label {
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
@@ -241,7 +243,8 @@ label {
 	padding-left: 50px;
 }
 
-.saran-footer input, textarea {
+.saran-footer input,
+textarea {
 	border-radius: 10px;
 	font-size: 1em;
 	width: 97%;

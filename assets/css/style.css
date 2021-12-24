@@ -421,7 +421,8 @@ nav .container {
 	color: var(--black);
 	margin-top: 90px;
 }
-.artikelb h3, p {
+.artikelb h3,
+p {
 	text-align: left !important;
 }
 .artikelbtn {
@@ -506,7 +507,9 @@ footer .container h3 {
 	font-weight: 600;
 }
 
-footer .container a, p, label {
+footer .container a,
+p,
+label {
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
@@ -526,7 +529,8 @@ label {
 	padding: 10px 10px;
 }
 
-.saran-footer input, textarea {
+.saran-footer input,
+textarea {
 	border-radius: 10px;
 	font-size: 1em;
 	width: 100%;
