@@ -28,7 +28,9 @@
 .artikel2 h3 {
 	color: #000;
 }
-
+.artikel a {
+	text-decoration: none;
+}
 .artikel p {
 	font-weight: 400;
 	font-size: 20px;
