@@ -68,3 +68,7 @@
 	background-color: var(--purple);
 	color: var(--white);
 }
+
+.active{
+	background-color: var(--purple);
+}
