@@ -26,7 +26,7 @@
 }
 
 .artikel2 h3 {
-	color: #000;
+	color: #363846;
 }
 .artikel a {
 	text-decoration: none;
@@ -35,7 +35,7 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
-	color: #000;
+	color: #363846;
 }
 
 .artikelb h3 {
@@ -43,6 +43,10 @@
 	font-size: 25px;
 	line-height: 35px;
 	font-weight: 700;
+}
+.artikelb p {
+	color: #363846;
+	font-size: 20px;
 }
 .pages-bar {
 	display: flex;
